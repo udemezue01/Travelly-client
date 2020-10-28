@@ -10,6 +10,9 @@ import VueRouter from 'vue-router'
  // The landing page Home, Password-Reset, Register and Login Views
 
 import Landing from '../views/Landing/Landing.vue'
+import Login from '../views/Landing/Login.vue'
+import Register from '../views/Landing/Register.vue'
+import PasswordReset from '../views/Landing/Password-Reset.vue'
 
 // The Hotel page Hotel list, Create, Update and Details
 
@@ -37,6 +40,12 @@ const routes = [
     path: '/',
     name: 'Landing',
     component: Landing
+  },
+
+    {
+    path: '/feeds',
+    name: 'Feeds',
+    component: Feeds
   },
   // {
   //   path: '/about',

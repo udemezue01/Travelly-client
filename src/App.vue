@@ -1,5 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" class="h-screen bg-blue-100">
+
+  	<!-- <navbar> </navbar> -->
     
     <router-view/>
   </div>
@@ -7,8 +9,15 @@
 
 <script >
 
+import Navbar from './components/Navbar.vue'
 
 export default{
+
+ components:{
+
+ 	Navbar,
+
+ },
 
   data(){
 
