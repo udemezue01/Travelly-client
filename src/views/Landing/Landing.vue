@@ -24,6 +24,8 @@
 
     	<!-- End of The Transparent Navigational Bar -->
 
+        <!-- The Introductory Section -->
+
     	<div class="mt-4 flex px-6">
 
     		<div class="p-4 w-1/2">
@@ -40,12 +42,70 @@
 
     	</div>
 
+        <!-- End Of The Introductory Section -->
+
+       <!--  The Featured section -->
+
+       <div class="mt-6">
+           
+           <!--  The First Feautured Section -->
+            <div class="px-8">
+
+
+                    <!-- Connect With Other Travellers -->
+
+                <div>
+
+                </div>
+
+
+
+                <div>
+
+                </div>
+                
+
+            </div>
+
+            <!--   End Of The First Featured Section -->
+
+            <!--  The Second Feautured Section -->
+            <div class="px-8">
+
+                <!-- Book Cheap Flights, Hotel and Tours -->
+                
+
+
+            </div>
+
+            <!--   End Of The Second Featured Section -->
+
+
+            <!--  The Third Feautured Section -->
+            <div class="px-8">
+
+             <!--    Book a Travel Guide -->
+                
+
+            </div>
+
+            <!--   End Of The Third Featured Section -->
+
+
+
+       </div>
+
+
+
+       <!--  End Of The Featured Section -->
+
 
       
     </div>
 </template>
 
 <script>
+
 export default {
 
  data(){
