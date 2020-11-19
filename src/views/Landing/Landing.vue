@@ -1,9 +1,9 @@
 <template>
-    <div class="" >
+    <div class="h-full px-6" >
 
     	<!-- The Transparent Navigational Bar -->
 
-    	<nav class="bg-transparent items-center flex justify-between px-6 py-5">
+    	<nav class="bg-transparent items-center flex justify-between py-5">
     		
     		<div>
     			
@@ -11,14 +11,12 @@
 
     		</div>
 
-    		<div>
-    			<ul class="list-none flex space-x-6 justify-between">
+    		<div class="flex  space-x-4">
+                    
+                    <a href="" class="px-3 py-3 bg-blue-600 text-white rounded-lg"> Get Started</a>
+                    <a href="" class="px-3 py-3 bg-gray-800 text-white rounded-lg"> Login</a>
 
-    				<li class="text-gray-800 font-bold text-md">Get Started</li>
-    				<li>Login</li>
-
-    			</ul>
-    		</div>
+                </div>
 
     	</nav>
 
@@ -30,13 +28,26 @@
 
     		<div class="p-4 w-1/2">
 
-    			<h1 class="text-5xl text-gray-900 mt-20"> Connecting Travellers Globally </h1>
-    			
+    			<h1 class="text-6xl text-gray-900 mt-20 font-bold"> Connecting Travellers Globally </h1>
+    			<p class="mt-8"> Social Network For Travellers</p>
+
+                <!-- The button section -->
+
+                <div class="flex mt-20 space-x-4">
+                    
+                    <a href="" class="px-5 py-4 bg-blue-600 text-white rounded-lg"> Get Started</a>
+                    <a href="" class="px-5 py-4 bg-gray-800 text-white rounded-lg"> Learn More</a>
+
+                </div>
+
+
+               <!--  End Of The Button Section -->
 
     		</div>
 
     		<div>
     			
+                <img src="/img/brand/travellers.svg" class="h-full w-full object-center object-cover">
 
     		</div>
 

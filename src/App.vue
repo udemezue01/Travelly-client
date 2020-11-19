@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="h-screen bg-blue-100">
+  <div id="app" class="h-full bg-blue-100">
 
   	<!-- <navbar> </navbar> -->
     
