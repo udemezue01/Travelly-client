@@ -11,10 +11,10 @@
 
     		</div>
 
-    		<div class="flex  space-x-4">
+    		<div class="flex space-x-4">
                     
-                    <a href="" class="px-3 py-3 bg-blue-600 text-white rounded-lg"> Get Started</a>
-                    <a href="" class="px-3 py-3 bg-gray-800 text-white rounded-lg"> Login</a>
+                    <a href="" class="px-4 py-3 bg-blue-600 text-white font-bold rounded-lg"> Get Started</a>
+                    <a href="" class="px-4 py-3 bg-gray-800 text-white font-bold rounded-lg"> Login</a>
 
                 </div>
 
@@ -24,19 +24,19 @@
 
         <!-- The Introductory Section -->
 
-    	<div class="mt-4 flex px-6">
+    	<div class="mt-3 flex px-6">
 
-    		<div class="p-4 w-1/2">
+    		<div class="p-4 w-full lg:w-1/2">
 
-    			<h1 class="text-6xl text-gray-900 mt-20 font-bold"> Connecting Travellers Globally </h1>
-    			<p class="mt-8"> Social Network For Travellers</p>
+    			<h1 class="text-6xl text-gray-900 mt-20 font-bold tracking-wider">Social Network For Travellers </h1>
+    			<p class="mt-8 text-3xl font-medium text-gray-900 tracking-wider"> </p>
 
                 <!-- The button section -->
 
                 <div class="flex mt-20 space-x-4">
                     
-                    <a href="" class="px-5 py-4 bg-blue-600 text-white rounded-lg"> Get Started</a>
-                    <a href="" class="px-5 py-4 bg-gray-800 text-white rounded-lg"> Learn More</a>
+                    <a href="" class="px-5 py-4 bg-blue-600 text-white font-bold rounded-lg"> Get Started</a>
+                    <a href="" class="px-5 py-4 bg-gray-800 text-white font-bold rounded-lg"> Learn More</a>
 
                 </div>
 
@@ -45,7 +45,7 @@
 
     		</div>
 
-    		<div>
+    		<div class="hidden lg:block">
     			
                 <img src="/img/brand/travellers.svg" class="h-full w-full object-center object-cover">
 
