@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="h-full bg-blue-100">
+  <div id="app" class="h-screen bg-green-50 px-6 lg:px-12">
 
-  	<!-- <navbar> </navbar> -->
+  <!-- 	<navbar> </navbar> -->
     
     <router-view/>
   </div>

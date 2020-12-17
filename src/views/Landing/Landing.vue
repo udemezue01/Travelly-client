@@ -1,9 +1,9 @@
 <template>
-    <div class="h-full px-6" >
+    <div class="h-screen" >
 
     	<!-- The Transparent Navigational Bar -->
 
-    	<nav class="bg-transparent items-center flex justify-between py-5">
+    	<nav class="bg-transparent items-center flex justify-between py-3">
     		
     		<div>
     			
@@ -13,7 +13,7 @@
 
     		<div class="flex space-x-4">
                     
-                    <a href="" class="px-4 py-3 bg-blue-600 text-white font-bold rounded-lg"> Get Started</a>
+                    <a href="" class="px-4 py-3 bg-green-600 text-white font-bold rounded-lg"> Get Started</a>
                     <a href="" class="px-4 py-3 bg-gray-800 text-white font-bold rounded-lg"> Login</a>
 
                 </div>
@@ -24,19 +24,21 @@
 
         <!-- The Introductory Section -->
 
-    	<div class="mt-3 flex px-6">
+    	<div class="mt-18 flex">
 
-    		<div class="p-4 w-full lg:w-1/2">
+    		<div class="w-full lg:w-1/2">
 
-    			<h1 class="text-6xl text-gray-900 mt-20 font-bold tracking-wider">Social Network For Travellers </h1>
-    			<p class="mt-8 text-3xl font-medium text-gray-900 tracking-wider"> </p>
+                <h1 class="text-7xl text-gray-900 mt-20 font-black tracking-wider">Travelly </h1>
+
+    			<h3 class="text-4xl text-gray-900 mt-8 font-medium tracking-wider">Travel Social Network </h3>
+    			<p class="mt-8 text-2xl font-normal text-gray-900 tracking-wider"> All-in-one Travel solution, Connect,<br> Book Flights & Get a Tour  Guides</p>
 
                 <!-- The button section -->
 
-                <div class="flex mt-20 space-x-4">
+                <div class="flex mt-12 space-x-4">
                     
-                    <a href="" class="px-5 py-4 bg-blue-600 text-white font-bold rounded-lg"> Get Started</a>
-                    <a href="" class="px-5 py-4 bg-gray-800 text-white font-bold rounded-lg"> Learn More</a>
+                    <a href="" class="px-5 py-4 bg-green-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
+                    <a href="" class="px-5 py-4 bg-gray-800 text-white font-bold rounded-lg tracking-wider"> Learn More</a>
 
                 </div>
 
@@ -47,7 +49,7 @@
 
     		<div class="hidden lg:block">
     			
-                <img src="/img/brand/travellers.svg" class="h-full w-full object-center object-cover">
+                <img src="/img/brand/travellers.svg" class="h-full w-full object-center object-cover rounded-lg">
 
     		</div>
 
@@ -57,10 +59,10 @@
 
        <!--  The Featured section -->
 
-       <div class="mt-6">
+       <div class="mt-8">
            
            <!--  The First Feautured Section -->
-            <div class="px-8">
+            <div class="flex px-8">
 
 
                     <!-- Connect With Other Travellers -->
