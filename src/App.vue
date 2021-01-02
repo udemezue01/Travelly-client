@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="h-screen bg-green-50 px-6 lg:px-12">
+  <div id="app" class="h-full bg-indigo-50">
 
-  <!-- 	<navbar> </navbar> -->
+  	<navbar v-if="userId"> </navbar>
     
     <router-view/>
   </div>
@@ -18,6 +18,13 @@ export default{
  	Navbar,
 
  },
+
+ computed: {
+      userId () {
+        return this.$root.$data.userId
+      }
+    },
+
 
   data(){
 

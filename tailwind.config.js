@@ -6,6 +6,11 @@ module.exports = {
   purge: [],
   theme: {
     extend: {},
+
+    fontFamily:{
+      'display': ['Work Sans', 'sans-serif'],
+    'body': ['Open Sans', 'sans-serif'],
+    }
   },
   variants: {},
   plugins: [],

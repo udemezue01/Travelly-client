@@ -47,6 +47,13 @@ const routes = [
     name: 'Feeds',
     component: Feeds
   },
+
+
+    {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
   // {
   //   path: '/about',
   //   name: 'About',

@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen" >
+    <div class="px-6 lg:px-24" >
 
     	<!-- The Transparent Navigational Bar -->
 
@@ -7,14 +7,16 @@
     		
     		<div>
     			
-    			<img  class="h-6 w-6 object-cover object-center" src="/img/brand/logo.svg">
+    			<img  class="h-10 w-10 object-cover object-center" src="/img/brand/directional-purple.svg">
 
     		</div>
 
     		<div class="flex space-x-4">
                     
-                    <a href="" class="px-4 py-3 bg-green-600 text-white font-bold rounded-lg"> Get Started</a>
-                    <a href="" class="px-4 py-3 bg-gray-800 text-white font-bold rounded-lg"> Login</a>
+                    <router-link to="/register" class="px-4 py-3 bg-indigo-600 text-white font-bold rounded-lg"> Get Started</router-link>
+
+                    
+                    <router-link to="/login" class="px-4 py-3 bg-gray-800 text-white font-bold rounded-lg"> Login</router-link>
 
                 </div>
 
@@ -26,18 +28,18 @@
 
     	<div class="mt-18 flex">
 
-    		<div class="w-full lg:w-1/2">
+    		<div class="mt-12 w-full lg:w-1/2">
 
                 <h1 class="text-7xl text-gray-900 mt-20 font-black tracking-wider">Travelly </h1>
 
     			<h3 class="text-4xl text-gray-900 mt-8 font-medium tracking-wider">Travel Social Network </h3>
-    			<p class="mt-8 text-2xl font-normal text-gray-900 tracking-wider"> All-in-one Travel solution, Connect,<br> Book Flights & Get a Tour  Guides</p>
+    			<p class="mt-8 text-2xl font-medium text-gray-900 tracking-wider"> All-in-one Travel solution, Connect,<br> Book Flights & Get a Tour  Guides</p>
 
                 <!-- The button section -->
 
                 <div class="flex mt-12 space-x-4">
                     
-                    <a href="" class="px-5 py-4 bg-green-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
+                    <a href="" class="px-5 py-4 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
                     <a href="" class="px-5 py-4 bg-gray-800 text-white font-bold rounded-lg tracking-wider"> Learn More</a>
 
                 </div>
@@ -49,7 +51,7 @@
 
     		<div class="hidden lg:block">
     			
-                <img src="/img/brand/travellers.svg" class="h-full w-full object-center object-cover rounded-lg">
+                <img src="/img/brand/social-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800">
 
     		</div>
 
@@ -57,47 +59,96 @@
 
         <!-- End Of The Introductory Section -->
 
-       <!--  The Featured section -->
+      <!--   The mobile app section -->
 
-       <div class="mt-8">
+      <section class="mt-16">
+
+
+        <h1 class="text-center text-4xl font-black text-gray-900 tracking-wider"> Go Mobile With Ease</h1>
+
+        <p class="text-center text-2xl font-ordinary mt-12 text-gray-900 tracking-wider font-body"> With out mobile app, you have absolutely nothing to worry when it comes to handling all your travel needs</p>
+
+        <div class="mt-12 flex justify-center space-x-10 ">
+
+            <img src="/img/brand/apple.png" height="150px" width="150px" class="object-cover object-center rounded-lg ">
+            <img src="/img/brand/google.png" height="150px" width="150px" class="object-cover object-center ">
+            
+        </div>
+          
+
+
+      </section>
+
+
+
+        <!-- End of the mobile app section -->
+
+        
+
+        <!--  The First Feautured Section -->
+
+       <section class="mt-16 flex">
            
-           <!--  The First Feautured Section -->
-            <div class="flex px-8">
-
-
+  
                     <!-- Connect With Other Travellers -->
 
-                <div>
+                <div class="hidden lg:block">
+
+                    <img src="/img/brand/Newyork-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
 
                 </div>
 
 
 
-                <div>
+                <div class="mt-18 w-full lg:w-1/2">
+
+                    <p class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Connect With Other Travellers</p>
+
+
 
                 </div>
                 
 
-            </div>
+        </section>
 
             <!--   End Of The First Featured Section -->
 
+
+
             <!--  The Second Feautured Section -->
-            <div class="px-8">
+        <section class="mt-18 flex">
 
                 <!-- Book Cheap Flights, Hotel and Tours -->
-                
 
+            <div class="w-full lg:block">
+
+                  <p class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Book a Travel Guide</p>
 
             </div>
+
+            <div class="hidden lg:block">
+
+                    <img src="/img/brand/traveling-rafiki.svg" class="object-center object-cover rounded-lg" height="1500px" width="1500px">
+                
+
+            </div>
+
+        </section>
 
             <!--   End Of The Second Featured Section -->
 
 
             <!--  The Third Feautured Section -->
-            <div class="px-8">
+            <section class=" mt-16 flex">
+
+
 
              <!--    Book a Travel Guide -->
+              <div>  
+
+            </div>
+
+            <div>
                 
 
             </div>
@@ -106,7 +157,7 @@
 
 
 
-       </div>
+       </section>
 
 
 
