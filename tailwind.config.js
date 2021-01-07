@@ -9,7 +9,7 @@ module.exports = {
 
     fontFamily:{
       'display': ['Work Sans', 'sans-serif'],
-    'body': ['Open Sans', 'sans-serif'],
+    'body': ['Work Sans', 'sans-serif'],
     }
   },
   variants: {},

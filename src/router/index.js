@@ -54,6 +54,26 @@ const routes = [
     name: 'Login',
     component: Login
   },
+
+     {
+    path: '/flights',
+    name: 'Flight',
+    component: Flight
+  },
+
+      {
+    path: '/chat',
+    name: 'Chat',
+    component: Chat
+  },
+      {
+    path: '/guide',
+    name: 'Guides',
+    component: Guides
+  },
+
+
+  
   // {
   //   path: '/about',
   //   name: 'About',

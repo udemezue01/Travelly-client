@@ -26,14 +26,14 @@
 
         <!-- The Introductory Section -->
 
-    	<div class="mt-18 flex">
+    	<section class="mt-18 flex">
 
     		<div class="mt-12 w-full lg:w-1/2">
 
                 <h1 class="text-7xl text-gray-900 mt-20 font-black tracking-wider">Travelly </h1>
 
     			<h3 class="text-4xl text-gray-900 mt-8 font-medium tracking-wider">Travel Social Network </h3>
-    			<p class="mt-8 text-2xl font-medium text-gray-900 tracking-wider"> All-in-one Travel solution, Connect,<br> Book Flights & Get a Tour  Guides</p>
+    			<p class="mt-8 text-2xl font-body font-medium text-gray-900 tracking-wider"> All-in-one Travel solution, Connect,<br> Book Flights & Get a Tour  Guides</p>
 
                 <!-- The button section -->
 
@@ -55,7 +55,7 @@
 
     		</div>
 
-    	</div>
+    	</section>
 
         <!-- End Of The Introductory Section -->
 
@@ -102,7 +102,16 @@
 
                 <div class="mt-18 w-full lg:w-1/2">
 
-                    <p class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Connect With Other Travellers</p>
+                    <h1 class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Connect With Other Travellers</h1>
+
+                    <p class="mt-12 text-gray-900 text-2xl font-medium tracking-wider font-body">Dont miss out on the opportunity to connect with other travellers going in your direction.</p>
+
+                    <div class="mt-12">
+                          <a href="" class=" px-5 py-4 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get started</a>
+
+                    </div>
+
+                  
 
 
 
@@ -122,7 +131,18 @@
 
             <div class="w-full lg:block">
 
-                  <p class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Book a Travel Guide</p>
+                  <h1 class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Book a Travel Guide
+
+                  </h1>
+
+                  <p class="mt-12 text-gray-900 text-2xl font-medium tracking-wider font-body">Book a travel guide to help you explore your most prefered destination.</p>
+
+                    <div class="mt-12">
+                          <a href="" class=" px-5 py-4 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get started</a>
+
+                    </div>
+
+                    <!-- End of the get started button -->
 
             </div>
 
@@ -144,14 +164,31 @@
 
 
              <!--    Book a Travel Guide -->
-              <div>  
+                            <div class="hidden lg:block">
 
-            </div>
+                    <img src="/img/brand/Travelers-pana.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
 
-            <div>
+                </div>
+
+
+
+                <div class="mt-18 w-full lg:w-1/2">
+
+                    <h1 class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Book a Cheap Flight tickets
+
+                    </h1>
+
+                     <p class="mt-12 text-gray-900 text-2xl font-medium tracking-wider font-body">Get the best flight deals on your next trip.</p>
+
+                    <div class="mt-12">
+                          <a href="" class=" px-5 py-4 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get started</a>
+
+                    </div>
+
+
+
+                </div>
                 
-
-            </div>
 
             <!--   End Of The Third Featured Section -->
 
