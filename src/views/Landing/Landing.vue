@@ -26,9 +26,9 @@
 
         <!-- The Introductory Section -->
 
-    	<section class="mt-18 flex">
+    	<section class="flex justify-between">
 
-    		<div class="mt-12 w-full lg:w-1/2">
+    		<div class="mt-18 lg:w-1/2">
 
                 <h1 class="text-7xl text-gray-900 mt-20 font-black tracking-wider">Travelly </h1>
 
@@ -51,7 +51,7 @@
 
     		<div class="hidden lg:block">
     			
-                <img src="/img/brand/social-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800">
+                <img src="/img/brand/social-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
 
     		</div>
 
@@ -61,7 +61,7 @@
 
       <!--   The mobile app section -->
 
-      <section class="mt-16">
+      <section class="mt-18">
 
 
         <h1 class="text-center text-4xl font-black text-gray-900 tracking-wider"> Go Mobile With Ease</h1>
@@ -87,7 +87,7 @@
 
         <!--  The First Feautured Section -->
 
-       <section class="mt-16 flex">
+       <section class="mt-18 flex">
            
   
                     <!-- Connect With Other Travellers -->
@@ -148,7 +148,7 @@
 
             <div class="hidden lg:block">
 
-                    <img src="/img/brand/traveling-rafiki.svg" class="object-center object-cover rounded-lg" height="1500px" width="1500px">
+                    <img src="/img/brand/tokyo-rafiki.svg" class="object-center object-cover rounded-lg" height="1500px" width="1500px">
                 
 
             </div>
@@ -159,14 +159,14 @@
 
 
             <!--  The Third Feautured Section -->
-            <section class=" mt-16 flex">
+            <section class=" mt-18 flex">
 
 
 
              <!--    Book a Travel Guide -->
                             <div class="hidden lg:block">
 
-                    <img src="/img/brand/Travelers-pana.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
+                    <img src="/img/brand/mex-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
 
                 </div>
 
