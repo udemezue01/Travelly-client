@@ -2,9 +2,9 @@
     <div class="flex h-screen ">
 
 	<!--   The First Flex -->
-    	<div class="bg-white w-2/12 p-6">
+    	<div class="bg-white w-2/12 p-6 space-y-6">
 
-            <div class="space-y-6">
+            
                 <a href="" class="block text-gray-800 font-body font-bold tracking-wider flex space-x-3 item-center">
 
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-news h-6 w-6" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -90,12 +90,7 @@
             <span class="font-body font-bold tracking-wider hidden text-md lg:block"> Profile </span>
 
 
-            </a>
-
-
-            </div>
-
-      
+            </a>    
     		
 
     	</div>

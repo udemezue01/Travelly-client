@@ -1,13 +1,13 @@
 // Apollo client Setup
 
 import Vue from 'vue'
-import { USER_ID, AUTH_TOKEN } from './constants/settings'
 import { ApolloClient } from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { ApolloLink } from 'apollo-link'
 import VueApollo from 'vue-apollo'
 
+import { USER_ID, AUTH_TOKEN } from './constants/settings'
 
 
 
@@ -49,4 +49,10 @@ const apolloProvider = new VueApollo({
 
 Vue.use(VueApollo)
 
-export default apolloProvider
+export default {
+
+  apolloProvider,
+  apolloClient,
+
+
+}

@@ -7,7 +7,7 @@
 
   <div class="max-w-md w-full space-y-8 rounded-lg bg-white px-8 py-8 shadow">
     <div>
-      <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
+      <img class="mx-auto h-12 w-auto" src="/img/logo/logo-three.svg" alt="Workflow">
       <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
         Sign in to your account
       </h2>
@@ -18,16 +18,16 @@
         </a>
       </p>
     </div>
-    <form class="mt-8 space-y-6" action="#" method="POST">
+    <form class="mt-8 space-y-6" action="" method="POST">
       <input type="hidden" name="remember" value="true">
       <div class="rounded-md shadow-sm space-y-8">
         <div>
           <label for="email-address" class="text-gray-900 font-bold tracking-wider">Email address</label>
-          <input id="email-address" name="email" type="email" autocomplete="email" required class="mt-3 appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email address" v-model = "login.email">
+          <input id="email-address" name="email" type="email" autocomplete="email" required class="mt-3 appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email address" v-model = "authDetails.email">
         </div>
         <div>
           <label for="password" class="">Password</label>
-          <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password" v-model ="login.password">
+          <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-lg focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password" v-model ="authDetails.password">
         </div>
       </div>
 
@@ -47,7 +47,7 @@
       </div>
 
       <div>
-        <button type="submit" class="group relative font-body w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" v-on:click.prevent = "userLogin()" >
+        <button type="submit" class="group relative font-body w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" v-on:click.prevent = "loginUser" >
           <span class="absolute left-0 inset-y-0 flex items-center pl-3">
             <!-- Heroicon name: lock-closed -->
             <svg class="h-5 w-5 text-white group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -69,15 +69,16 @@
 
 <script>
 
-import { USER_ID, AUTH_TOKEN } from '../../constants/settings'
-import {SIGNIN_USER_MUTATION} from "../../graph/mutation"
+import { mapActions } from 'vuex'
+
+
 export default {
 
  data(){
 
   return{
 
-   login:{
+   authDetails:{
 
       email:"",
       password:"",
@@ -89,37 +90,14 @@ export default {
  },
 
  methods:{
+  ...mapActions(['userLogin']),
 
-   userLogin(){
-
-    this.$apollo.mutate({
-
-      mutation:SIGNIN_USER_MUTATION,
-      variables:{
-
-         email : this.login.email,
-         password : this.login.password
-      }
-
-    }).then(resp=>{
-
-      const token  = resp.data.tokenAuth.token
-      const user_id =  resp.data.tokenAuth.user.id
-      console.log(token)
-      console.log(user_id)
-      localStorage.setItem(AUTH_TOKEN, token)
-      localStorage.setItem(USER_ID, user_id)  
-
-        //Redirect to the feeds route
-      this.$router.push('/feeds')
-    }).catch(err=>{
-
-      
-    })
-   }
-
+   loginUser: function(){
+      this.userLogin(this.authDetails)
+      // .then(() => this.$router.push('/feeds'))
 
  },
+}
 
 }
 </script>

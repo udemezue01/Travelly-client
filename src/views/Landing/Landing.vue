@@ -7,16 +7,16 @@
     		
     		<div>
     			
-    			<img  class="h-10 w-10 object-cover object-center" src="/img/brand/directional-purple.svg">
+    			<img  class="h-9 w-9 object-cover object-center" src="/img/logo/logo-three.svg">
 
     		</div>
 
-    		<div class="flex space-x-4">
+    		<div class="flex space-x-4 items-center">
                     
-                    <router-link to="/register" class="px-4 py-3 bg-indigo-600 text-white font-bold rounded-lg"> Get Started</router-link>
+                    <router-link to="/register" class="px-3 py-3 bg-indigo-600 text-white font-bold rounded-lg"> Get Started</router-link>
 
                     
-                    <router-link to="/login" class="px-4 py-3 bg-gray-800 text-white font-bold rounded-lg"> Login</router-link>
+                    <router-link to="/login" class="px-3 py-3 bg-gray-800 text-white font-bold rounded-lg"> Login</router-link>
 
                 </div>
 
@@ -24,7 +24,7 @@
 
     	<!-- End of The Transparent Navigational Bar -->
 
-        <!-- The Introductory Section -->
+        <!-- The Hero Section -->
 
     	<section class="flex justify-between">
 
@@ -45,7 +45,7 @@
                 </div>
 
 
-               <!--  End Of The Button Section -->
+               <!--  End Of The Hero Section -->
 
     		</div>
 
@@ -61,7 +61,7 @@
 
       <!--   The mobile app section -->
 
-      <section class="mt-18">
+      <section class="mt-24">
 
 
         <h1 class="text-center text-4xl font-black text-gray-900 tracking-wider"> Go Mobile With Ease</h1>
@@ -199,6 +199,16 @@
 
 
        <!--  End Of The Featured Section -->
+
+      <!--  The footer section -->
+      <footer>
+
+
+    </footer>
+
+
+
+       <!-- End of the footer section -->
 
 
       
