@@ -94,7 +94,7 @@
 
                 <div class="hidden lg:block">
 
-                    <img src="/img/brand/Newyork-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
+                    <img src="/img/brand/newyork-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
 
                 </div>
 
