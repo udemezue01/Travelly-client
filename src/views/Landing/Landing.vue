@@ -26,7 +26,7 @@
 
         <!-- The Hero Section -->
 
-    	<section class="flex justify-between">
+    	<section class="flex justify-between h-screen">
 
     		<div class="mt-18 lg:w-1/2">
 
@@ -37,7 +37,7 @@
 
                 <!-- The button section -->
 
-                <div class="flex mt-12 space-x-4">
+                <div class="flex mt-12 space-x-8">
                     
                     <a href="" class="px-5 py-4 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
                     <a href="" class="px-5 py-4 bg-gray-800 text-white font-bold rounded-lg tracking-wider"> Learn More</a>
@@ -61,14 +61,14 @@
 
       <!--   The mobile app section -->
 
-      <section class="mt-24">
+      <section class="mt-8">
 
 
-        <h1 class="text-center text-4xl font-black text-gray-900 tracking-wider"> Go Mobile With Ease</h1>
+        <h1 class="mt-18 text-center text-5xl font-black text-gray-900 tracking-wider"> Go Mobile With Ease.</h1>
 
-        <p class="text-center text-2xl font-ordinary mt-12 text-gray-900 tracking-wider font-body"> With out mobile app, you have absolutely nothing to worry when it comes to handling all your travel needs</p>
+        <p class=" mt-24  text-center text-3xl font-medium  text-gray-900 tracking-wider font-body"> With out mobile app, you have absolutely nothing to worry when it comes to handling all your travel needs.</p>
 
-        <div class="mt-12 flex justify-center space-x-10 ">
+        <div class="mt-24 flex justify-center space-x-10 ">
 
             <img src="/img/brand/apple.png" height="150px" width="150px" class="object-cover object-center rounded-lg ">
             <img src="/img/brand/google.png" height="150px" width="150px" class="object-cover object-center ">
@@ -102,9 +102,9 @@
 
                 <div class="mt-18 w-full lg:w-1/2">
 
-                    <h1 class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Connect With Other Travellers</h1>
+                    <h1 class="mt-36 text-gray-900 text-5xl font-bold tracking-wider font-body"> Connect With Other Travellers.</h1>
 
-                    <p class="mt-12 text-gray-900 text-2xl font-medium tracking-wider font-body">Dont miss out on the opportunity to connect with other travellers going in your direction.</p>
+                    <p class="mt-12 text-gray-900 text-3xl font-medium tracking-wider font-body">Dont miss out on the opportunity to connect with other travellers going in your direction.</p>
 
                     <div class="mt-12">
                           <a href="" class=" px-5 py-4 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get started</a>
@@ -131,7 +131,7 @@
 
             <div class="w-full lg:block">
 
-                  <h1 class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Book a Travel Guide
+                  <h1 class="mt-36 text-gray-900 text-5xl font-bold tracking-wider font-body"> Book a Travel Guide
 
                   </h1>
 
@@ -164,7 +164,7 @@
 
 
              <!--    Book a Travel Guide -->
-                            <div class="hidden lg:block">
+                <div class="hidden lg:block">
 
                     <img src="/img/brand/mex-rafiki.svg" class="object-center object-cover rounded-lg" height="800px" width="800px">
 
@@ -174,7 +174,7 @@
 
                 <div class="mt-18 w-full lg:w-1/2">
 
-                    <h1 class="mt-36 text-gray-900 text-4xl font-bold tracking-wider font-body"> Book a Cheap Flight tickets
+                    <h1 class="mt-36 text-gray-900 text-5xl font-bold tracking-wider font-body"> Book a Cheap Flight tickets
 
                     </h1>
 
@@ -201,7 +201,7 @@
        <!--  End Of The Featured Section -->
 
       <!--  The footer section -->
-      <footer>
+      <footer class="bg-gray-800">
 
 
     </footer>

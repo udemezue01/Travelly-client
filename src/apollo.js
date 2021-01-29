@@ -36,7 +36,7 @@ const cache = new InMemoryCache()
 
 
 // Create the apollo client
-const apolloClient = new ApolloClient({
+export const apolloClient = new ApolloClient({
   link: authMiddleware.concat(httpLink),
   cache,
   connectToDevTools: true,
@@ -49,10 +49,4 @@ const apolloProvider = new VueApollo({
 
 Vue.use(VueApollo)
 
-export default {
-
-  apolloProvider,
-  apolloClient,
-
-
-}
+export default apolloProvider

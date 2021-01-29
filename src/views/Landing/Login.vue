@@ -94,7 +94,7 @@ export default {
 
    loginUser: function(){
       this.userLogin(this.authDetails)
-      // .then(() => this.$router.push('/feeds'))
+      .then(() => this.$router.push('/feeds'))
 
  },
 }
