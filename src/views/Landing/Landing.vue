@@ -39,8 +39,8 @@
 
                 <div class="flex mt-12 space-x-8">
                     
-                    <a href="" class="px-5 py-4 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
-                    <a href="" class="px-5 py-4 bg-gray-800 text-white font-bold rounded-lg tracking-wider"> Learn More</a>
+                    <a href="" class="px-4 py-3 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
+                    <a href="" class="px-4 py-3 bg-gray-800 text-white font-bold rounded-lg tracking-wider"> Learn More</a>
 
                 </div>
 
@@ -66,13 +66,15 @@
 
         <h1 class="mt-18 text-center text-5xl font-black text-gray-900 tracking-wider"> Go Mobile With Ease.</h1>
 
-        <p class=" mt-24  text-center text-3xl font-medium  text-gray-900 tracking-wider font-body"> With out mobile app, you have absolutely nothing to worry when it comes to handling all your travel needs.</p>
+        <p class=" mt-24  text-center text-3xl font-medium  text-gray-900 tracking-wider font-body lg:px-36"> With out mobile app, you have absolutely nothing to worry when it comes to handling all your travel needs.</p>
 
         <div class="mt-24 flex justify-center space-x-10 ">
 
-            <img src="/img/brand/apple.png" height="150px" width="150px" class="object-cover object-center rounded-lg ">
-            <img src="/img/brand/google.png" height="150px" width="150px" class="object-cover object-center ">
-            
+           
+                <a href="" class="px-4 py-3 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Android</a>
+
+                <a href="" class="px-4 py-3 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> App Store</a>
+
         </div>
           
 

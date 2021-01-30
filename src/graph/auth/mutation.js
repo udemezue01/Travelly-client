@@ -16,3 +16,13 @@ mutation ($email:String!,$password:String!){
 	}
 }
 `;
+
+// export const REGISTER_USER_MUTATION  = gql `
+
+// mutation ($fullName:String!, $email:String!, $password:String!){
+
+	
+	
+// }
+
+// `;
