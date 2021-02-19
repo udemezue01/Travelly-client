@@ -56,7 +56,7 @@
 
      <!-- The social login button-->
 
-    <div class="flex justify-between">
+    <div class="flex justify-between items-center mt-6">
 
       <div>
         Facebook login
