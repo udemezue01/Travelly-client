@@ -2,17 +2,16 @@
 
 import { apolloClient } from '../../apollo'
 
-// The Post mutation and queries
+// The Wallet and Payout mutation and queries
 
 import {SIGNIN_USER_MUTATION} from "../../graph/auth/mutation"
 
 
-
-
 const state =  {
 
-	posts:[],
-	post:''
+	reviews:[],
+
+	review:'',
 
 };
 
@@ -31,6 +30,12 @@ const mutations = {
 
 const actions = {
 
+	async walletDetail({commit}){
+
+
+	}
+
+
 
 
 };
@@ -38,8 +43,8 @@ const actions = {
 
 export default {
 
-	state,
-	getters,
-	mutations,
-	actions,
+  state,
+  getters,
+  mutations,
+  actions,
 }

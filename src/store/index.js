@@ -13,6 +13,7 @@ import post from './modules/post.js'
 import profile from './modules/profile.js'
 
 import review from './modules/review.js'
+import wallet from './modules/wallet.js'
 
 
 Vue.use(Vuex)
@@ -31,6 +32,7 @@ export default new Vuex.Store({
     guide,
   	post,
     profile,
-    review
+    review,
+    wallet,
   }
 })

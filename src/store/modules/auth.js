@@ -1,12 +1,11 @@
 
 // The apolloClient Trigger
 
-
 import { apolloClient } from '../../apollo'
 
 import {USER_ID, AUTH_TOKEN } from '../../constants/settings'
 
-// The User Login mutation
+// The User Authentication mutation and queries
 
 import {SIGNIN_USER_MUTATION} from "../../graph/auth/mutation"
 
@@ -46,6 +45,8 @@ const mutations =  {
 
 const actions  =  {
 
+  // The user login API
+
   	async userLogin({commit}, authDetails){
 
   		try{
@@ -68,9 +69,14 @@ const actions  =  {
   		}
   	},
 
+    // The user registration API
+
+
     async userRegister({commit}, registerDetails){
 
       try{
+
+
 
 
       }
@@ -81,6 +87,7 @@ const actions  =  {
 
     },
 
+    // The password reset API 
     async passwordReset({commit}, resetDetails){
 
       try{

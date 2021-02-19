@@ -20,8 +20,9 @@ module.exports = {
     extend: {},
 
     fontFamily:{
-      'display': ['Work Sans', 'sans-serif'],
-    'body': ['Work Sans', 'sans-serif'],
+
+    'body':['DM Sans']
+    
     }
   },
   variants: {},

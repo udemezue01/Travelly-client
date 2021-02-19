@@ -3,12 +3,6 @@ import { shallowMount } from '@vue/test-utils'
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 
- // The landing page Home, Password-Reset, Register and Login Views
-
-import Landing from '@/views/Landing/Landing.vue'
-import Login from '@/views/Landing/Login.vue'
-import Register from '@/views/Landing/Register.vue'
-import PasswordReset from '@/views/Landing/Password-Reset.vue'
 
 // The Hotel page Hotel list, Create, Update and Details
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="px-6 lg:px-24" >
+    <div class="px-6 lg:px-24 relative " >
 
     	<!-- The Transparent Navigational Bar -->
 
@@ -33,6 +33,8 @@
       <!-- The toggle navigational section -->
 
       <div class="items-center block lg:hidden">
+
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
         
       </div>
 
@@ -57,8 +59,8 @@
 
                 <div class="flex mt-12 space-x-8">
                     
-                    <a href="" class="px-4 py-3 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
-                    <a href="" class="px-4 py-3 bg-gray-800 text-white font-bold rounded-lg tracking-wider"> Learn More</a>
+                    <a href="" class="px-3 py-3 bg-indigo-600 text-white font-bold rounded-lg tracking-wider"> Get Started</a>
+                    <a href="" class="px-3 py-3 bg-transparent text-indigo-600 ring-1 ring-indigo-600 font-medium rounded-md tracking-wider"> Learn More</a>
 
                 </div>
 
@@ -80,7 +82,27 @@
       
 
       <!--  The footer section -->
-      <footer class="bg-gray-800">
+      <footer class="bg-white absolute ">
+
+        <div class="space-y-2">
+          
+
+        </div>
+
+        <div class="space-y-2">
+          
+
+        </div>
+
+        <div class="space-y-2">
+          
+
+        </div>
+
+        <div class="space-y-2">
+          
+
+        </div>
 
 
     </footer>

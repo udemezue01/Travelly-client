@@ -1,12 +1,9 @@
-
 // The apolloClient Trigger
-
 
 import { apolloClient } from '../../apollo'
 
-import {USER_ID, AUTH_TOKEN } from '../../constants/settings'
 
-// The User Login mutation
+// The Booking mutation and queries
 
 import {SIGNIN_USER_MUTATION} from "../../graph/auth/mutation"
 

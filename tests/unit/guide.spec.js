@@ -6,7 +6,7 @@ import { shallowMount } from '@vue/test-utils'
 
 import Guides from '@/views/Guides/Guides.vue'
 
-describe('Landing.vue', () => {
+describe('Guides.vue', () => {
   it('renders props.msg when passed', () => {
     const msg = 'new message'
     const wrapper = shallowMount(HelloWorld, {
