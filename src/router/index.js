@@ -3,36 +3,6 @@ import VueRouter from 'vue-router'
 
 
 
-// In-app views
-
-
-
- // The landing page Home, Password-Reset, Register and Login Views
-
-import Landing from '@/views/Landing/Landing.vue'
-import Login from '@/views/Landing/Login.vue'
-import Register from '@/views/Landing/Register.vue'
-import PasswordReset from '@/views/Landing/Password-Reset.vue'
-import Features from '@/views/Landing/Features.vue'
-
-// The Hotel page Hotel list, Create, Update and Details
-
-import Hotels from '@/views/Hotels/Hotels.vue'
-
-// The Chat page Chat list, Create, Update and Details
-
-import Chat from '@/views/Chat/Chat.vue'
-
-// The Feeds page Feeds list, Create, Update and Details
-import Feeds from '@/views/Feeds/Feeds.vue'
-
-// The Flight page Flight list, Create, Update and Details
-
-import Flight from '@/views/Flight/Flight.vue'
-
-// The Guides  page Guides list, Create, Update and Details
-
-import Guides from '@/views/Guides/Guides.vue'
 
 Vue.use(VueRouter)
 
@@ -40,37 +10,37 @@ const routes = [
   {
     path: '/',
     name: 'Landing',
-    component: Landing
+    component: () => import(/* webpackChunkName: "about" */ '../views/Landing/Landing.vue')
   },
 
     {
     path: '/feeds',
     name: 'Feeds',
-    component: Feeds
+    component: () => import(/* webpackChunkName: "about" */ '../views/Feeds/Feeds.vue')
   },
 
 
     {
     path: '/login',
     name: 'Login',
-    component: Login
+    component: () => import(/* webpackChunkName: "about" */ '../views/Landing/Login.vue')
   },
 
      {
     path: '/flights',
     name: 'Flight',
-    component: Flight
+    component: () => import(/* webpackChunkName: "about" */ '../views/Flight/Flight.vue')
   },
 
       {
     path: '/chat',
     name: 'Chat',
-    component: Chat
+    component: () => import(/* webpackChunkName: "about" */ '../views/Chat/Chat.vue')
   },
       {
     path: '/guide',
     name: 'Guides',
-    component: Guides
+    component: () => import ('../views/Guides/Guides.vue')
   },
 
 
