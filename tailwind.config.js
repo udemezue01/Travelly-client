@@ -21,7 +21,8 @@ module.exports = {
 
     fontFamily:{
 
-    'body':['DM Sans']
+    'body':['DM Sans'],
+    'display':['Pacifico']
     
     }
   },
