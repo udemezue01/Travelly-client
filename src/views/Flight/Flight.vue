@@ -1,29 +1,62 @@
 <template>
-    <div class="h-screen">
-    	<!-- The Navigational bar -->
-    	<nav class="flex justify-between bg-white item-center py-4 px-6 shadow">
+    <div class="flex h-screen ">
 
-    		<div>
+    <!--   The First Flex -->
+        <div class="bg-transparent h-full w-1/12 p-6 ">
 
-    			<p class="text-md text-gray-900 font-body font-semibold tracking-wider">Flights</p>
-    			
+  
 
-    		</div>
+            <SideBarNav> </SideBarNav>
+               
+            
 
-    		<div>
-    			
-    		</div>
-    		
+        </div>
 
-    	</nav>
+    <!-- End of The First Flex -->
 
-    	<!-- End Of The Navigational bar -->
+    <!--   The Second Flex -->
+        <div class="w-8/12">
+                 <nav class="flex justify-between bg-white item-center py-4 px-6 shadow">
+
+            <div>
+
+                <p class="text-md text-gray-900 font-body font-semibold tracking-wider">Flights</p>
+                
+
+            </div>
+
+            <div>
+                
+            </div>
+            
+
+        </nav>
+
+        </div>
+
+    <!-- End of The Second Flex -->
+
+
+    <!--   The Third Flex -->
+        <div class="w-2/12">
+            
+
+        </div>
+
+    <!-- End of The Third Flex -->
       
     </div>
 </template>
 
 <script>
+import SideBarNav from '../../components/SideBarNav.vue'
 export default {
+
+components:{
+
+  SideBarNav,
+
+},
 
  data(){
 

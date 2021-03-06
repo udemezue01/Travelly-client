@@ -43,6 +43,26 @@ const routes = [
     component: () => import ('../views/Guides/Guides.vue')
   },
 
+        {
+    path: '/profile',
+    name: 'Profile',
+    component: () => import ('../views/Profile/Profile.vue')
+  },
+
+          {
+    path: '/explore',
+    name: 'Explore',
+    component: () => import ('../views/Explore/Explore.vue')
+  },
+
+           {
+    path: '/wallet',
+    name: 'Wallet',
+    component: () => import ('../views/Wallet/Wallet.vue')
+  },
+
+
+
 
   
   {
