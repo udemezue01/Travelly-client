@@ -1,5 +1,7 @@
 <template>
-	<div class="space-y-12 lg:space-y-20">
+
+
+	<div class="space-y-20">
 		
 
             

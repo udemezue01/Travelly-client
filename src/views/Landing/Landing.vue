@@ -1,13 +1,13 @@
 <template>
-    <div class="px-6 lg:px-24 relative" >
+    <div class="relative">
 
     	<!-- The Transparent Navigational Bar -->
 
-    	<nav class="bg-transparent items-center flex justify-between py-3">
+    	<nav class="bg-transparent items-center flex justify-between py-3 px-6 lg:px-24">
     		
     		<div>
     			
-    			<img  class="h-9 w-9 object-cover object-center" src="/img/logo/logo-three.svg">
+    			<img  class="h-9 w-9 object-cover object-center" src="/img/logo/logo-four.svg">
 
     		</div>
 
@@ -46,9 +46,9 @@
 
         <!-- The Hero Section -->
 
-    	<section class="flex justify-between h-screen">
+    	<section class="flex justify-between h-screen px-6 lg:px-24">
 
-    		<div class="mt-18 lg:mt-24 lg:w-1/2 space-y-8">
+    		<div class="mt-18 lg:mt-24 lg:w-1/2 space-y-8 animate__animated animate__fadeIn">
 
                 <h1 class="text-7xl font-display text-gray-900 mt-20 font-black tracking-wider">Travelly </h1>
 
@@ -79,10 +79,76 @@
 
         <!-- End Of The Introductory Section -->
 
+        <section class="bg-white space-y-4 p-3 px-6 lg:px-24">
+          <h1 class="text-gray-900 font-body text-xl tracking-wider font-black"> Top Destinations</h1>
+
+          <p class="text-gray-900 font-body text-md tracking-wider">Explore the best  destination from all over the globe</p>
+
+          <ul class="list-none grid sm:grid-cols-1 lg:grid-cols-3 gap-8">
+            <li> 
+
+               <!--  The Beginning of the card -->
+              <div class="bg-white px-4 py-6 space-y-6 shadow rounded-lg">
+                
+                <img src="/img/brand/trip-rafiki.svg" class="w-full h-18 object-cover object-center">
+
+              <h1 class="text-center text-md font-body"> Cyprus</h1>
+
+
+              </div>
+
+
+              <!--   The end of the card -->
+            </li>
+
+            <li> 
+
+               <!--  The Beginning of the card -->
+              <div class="bg-white px-4 py-6 space-y-6 shadow rounded-lg">
+                
+                <img src="/img/brand/newyork-rafiki.svg" class="w-full h-18 object-cover object-center">
+
+              <h1 class="text-center text-md font-body"> Cyprus</h1>
+
+
+              </div>
+
+
+              <!--   The end of the card -->
+            </li>
+
+
+            <li> 
+
+               <!--  The Beginning of the card -->
+              <div class="bg-white px-4 py-6 space-y-6 shadow rounded-lg">
+                
+                <img src="/img/brand/toronto-rafiki.svg" class="w-full h-18 object-cover object-center">
+
+              <h1 class="text-center text-md font-body"> Cyprus</h1>
+
+
+              </div>
+
+
+              <!--   The end of the card -->
+            </li>
+          </ul>
+
+          <div class="flex justify-center">
+          
+            <button class="font-body px-3 py-3 bg-transparent text-indigo-600 ring-1 ring-indigo-600 text-sm rounded-md tracking-wider"> Show More</button>  
+
+          </div>
+
+        
+
+        </section>
+
       
 
       <!--  The footer section -->
-      <footer class=" grid grid-cols-1 lg:grid-cols-4 gap-6 bg-indigo-50 py-4 px-6 rounded-lg shadow">
+      <footer class="grid grid-cols-2 lg:grid-cols-4 gap-6 bg-gray-100 mt p-12 lg:p-24 py-4 px-6 lg:px-24">
 
         <div class="space-y-2 ">
 

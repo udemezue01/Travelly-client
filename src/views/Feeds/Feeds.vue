@@ -2,7 +2,7 @@
     <div class="flex h-screen ">
 
 	<!--   The First Flex -->
-    	<div class="bg-transparent h-full w-1/12 p-4 ">
+    	<div class="bg-transparent w-1/12 p-2 ">
 
   
 

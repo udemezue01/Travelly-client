@@ -15,7 +15,7 @@
     <!-- End of The First Flex -->
 
     <!--   The Second Flex -->
-    	<div class="w-8/12">
+    	<div class="w-10/12">
     		     <nav class="flex justify-between bg-white item-center py-4 px-6 shadow">
 
             <div>
@@ -32,18 +32,46 @@
 
         </nav>
 
+         <!-- The profile card -->
+
+        <div class="w-full rounded-lg">
+
+            <!-- The profile cover image -->
+
+            <img src="/img/brand/google.png" class="w-full object-center object-cover">
+
+          <!--   End of the profile cover image -->
+
+          <!-- Body of the profile card -->
+
+          <div class="flex justify-between px-6 py-3 bg-white">
+              <div>
+                  <img src="/img/brand/google.png" class="w-8 h-8 rounded-full object-cover object-center">
+
+              </div>
+
+              <div>
+                  
+                  
+
+              </div>
+
+          </div>
+
+          <!-- End of the Body of The profile card -->
+            
+
+
+        </div>
+
+
+        <!-- End of the profile card -->
+
     	</div>
 
     <!-- End of The Second Flex -->
 
-
-    <!--   The Third Flex -->
-    	<div class="w-2/12">
-    		
-
-    	</div>
-
-    <!-- End of The Third Flex -->
+       
       
     </div>
 </template>

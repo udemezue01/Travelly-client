@@ -6,6 +6,8 @@ import store from './store'
 
 import '@/assets/css/tailwind.css'
 
+import 'animate.css/animate.css';
+
 
 
 // The apollo settings
