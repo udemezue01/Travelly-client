@@ -3,11 +3,11 @@
 
     <!-- 	The Navigational Bar -->
 
-    	<nav class="bg-white flex justify-between px-6 py-4 lg:px-24 shadow">
+    	<nav class="bg-white flex justify-between px-6 py-3 lg:px-24 shadow">
 
 			<div class="flex justify-between items-center space-x-3">
 
-				<img class="h-6 w-6 cover" src="/img/logo/logo-four.svg" /> 
+				<img class="h-6 w-6 object-cover object-center" src="/img/logo/logo-four.svg" /> 
 
         <a href="" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
 
@@ -78,13 +78,17 @@
         
 			</div>
 
+      <!-- The middle navbar section -->
+
       <div class="flex space-x-3">
 
         
 
       </div>
 
-			<div class="flex space-x-3 relative">
+      <!-- End of the middle navbar section -->
+
+			<div class="flex space-x-3 items-center relative ">
 
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2 h-6 w-6" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
