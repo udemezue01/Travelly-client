@@ -9,7 +9,7 @@
 
 				<img class="h-6 w-6 object-cover object-center" src="/img/logo/logo-four.svg" /> 
 
-        <a href="" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
+        <router-link to="/feeds" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
 
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-news h-5 w-6 mx-auto" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -21,9 +21,9 @@
 
         <span> Feeds </span> 
 
-      </a>
+      </router-link>
 
-        <a href="" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
+        <router-link to="/flights" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
 
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane h-5 w-6 mx-auto" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round" >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -33,9 +33,9 @@
 
         <span> Flights </span> 
 
-      </a>
+      </router-link>
 
-        <a href="" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
+        <router-link to="/guide" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
 
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bus h-5 w-6 mx-auto"viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -51,9 +51,9 @@
 
           <span>  Guides </span>
 
-          </a>
+          </router-link>
 
-        <a href="" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
+        <router-link to="/explore" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50"> 
 
            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flame h-5 w-6 mx-auto" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -62,8 +62,10 @@
 
        <span>  Explore </span> 
 
-      </a>
-        <a href="" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50">
+      </router-link>
+
+
+        <router-link to="/chat" class="font-body text-sm text-gray-900 rounded-lg px-2 py-2 tracking-wider flex justify-between space-x-2 item-center hover:bg-indigo-50">
 
            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages h-5 w-6 mx-auto" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -74,7 +76,7 @@
 
         <span> Messages </span>
 
-        </a>
+        </router-link>
         
 			</div>
 
