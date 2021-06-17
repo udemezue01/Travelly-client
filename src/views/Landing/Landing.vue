@@ -150,7 +150,7 @@
       <!--  The footer section -->
       <footer class="grid grid-cols-2 lg:grid-cols-4 gap-6 bg-gray-100 mt p-12 lg:p-24 py-4 px-6 lg:px-24">
 
-        <div class="space-y-2 ">
+        <div class="space-y-6 ">
 
           <h1 class="block font-body text-gray-900 font-bold tracking-wider">Support</h1>
           <a href="" class="block font-body text-gray-900 font-medium tracking-wider"> Facebook</a>
@@ -159,7 +159,7 @@
 
         </div>
 
-        <div class="space-y-2">
+        <div class="space-y-6">
           
             <h1 class="block font-body text-gray-900 font-bold tracking-wider">Blog</h1>
           <a href="" class="block font-body text-gray-900 font-medium tracking-wider"> Facebook</a>
@@ -167,7 +167,7 @@
           <a href="" class=" block font-body text-gray-900 font-medium tracking-wider"> Instagram</a>
         </div>
 
-        <div class="space-y-2">
+        <div class="space-y-6">
           
             <h1 class="block font-body text-gray-900 font-bold tracking-wider">Company</h1>
 
@@ -179,7 +179,7 @@
         
         </div>
 
-        <div class="space-y-2">
+        <div class="space-y-6">
           
             <h1 class="block font-body text-gray-900 font-bold tracking-wider">Social</h1>
           <a href="" class="block font-body text-gray-900 font-medium tracking-wider flex space-x-2 items-center"> 

@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="h-full bg-indigo-50">
 
-  	<navbar v-if="!userId"> </navbar>
+  	<navbar v-if="userId"> </navbar>
     
     <router-view/>
   </div>
