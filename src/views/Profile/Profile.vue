@@ -89,7 +89,10 @@ components:{
  data(){
 
   return{
+      profileDetails:{
 
+          
+      }
 
   }
  },

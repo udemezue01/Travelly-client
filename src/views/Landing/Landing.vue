@@ -34,7 +34,7 @@
 
       <div class="items-center block lg:hidden">
 
-        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         
       </div>
 
@@ -48,12 +48,12 @@
 
     	<section class="flex justify-between h-screen px-6 lg:px-24">
 
-    		<div class="mt-18 lg:mt-24 lg:w-1/2 space-y-8 animate__animated animate__fadeIn">
+    		<div class="mt-18 lg:mt-24 lg:w-1/2 space-y-12">
 
                 <h1 class="text-7xl font-display text-gray-900 mt-20 font-black tracking-wider">Travelly </h1>
 
-    			<h3 class="text-4xl font-body text-gray-900  font-medium tracking-wider">Travel Social Network </h3>
-    			<p class=" font-body text-2xl font-medium text-gray-900 tracking-wider"> All-in-one Travel solution, Connect,<br> Book Flights & Get a Tour  Guides</p>
+    			<h3 class="text-4xl font-body text-gray-800  font-semibold tracking-wider">Travel Social Network </h3>
+    			<p class=" font-body text-2xl font-medium text-gray-800 tracking-wider"> All-in-one Travel solution, Connect Book Flights & Get a Tour  Guides</p>
 
                 <!-- The button section -->
 
@@ -69,9 +69,9 @@
 
     		</div>
 
-    		<div class="relative hidden lg:block">
+    		<div class="relative h-full w-full hidden xl:block">
     			
-                <img src="/img/brand/social-rafiki.svg" class=" object-center object-cover " height="800px" width="800px">
+                <img src="/img/brand/social-rafiki.svg" class=" absolute inset-0 object-center object-cover h-full w-full">
 
     		</div>
 

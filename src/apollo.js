@@ -27,7 +27,7 @@ const authMiddleware = new ApolloLink((operation, forward) => {
 // HTTP connection to the API
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: 'http://127.0.0.1:8000/graphql',
+  uri: 'http://127.0.0.1:7000/graphql',
 })
 
 // Cache implementation

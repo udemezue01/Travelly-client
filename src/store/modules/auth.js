@@ -51,7 +51,11 @@ const actions  =  {
 
   		try{
 
-  			const response = await apolloClient.mutate({ mutation: SIGNIN_USER_MUTATION, variables: { ...authDetails } })
+  			const response = await apolloClient.mutate({
+          
+          mutation: SIGNIN_USER_MUTATION,     
+          variables: { ...authDetails } 
+        })
   			const token = JSON.stringify(response.tokenAuth.token)
         const userId = JSON.stringify(response.tokenAuth.user.id)
         console.log(token)
