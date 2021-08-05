@@ -46,6 +46,9 @@
 
         <!-- The Hero Section -->
 
+
+        <transition name="fade">
+
     	<section class="flex justify-between h-screen px-6 lg:px-24">
 
     		<div class="mt-18 lg:mt-24 lg:w-1/2 space-y-12">
@@ -71,11 +74,13 @@
 
     		<div class="relative h-full w-full hidden xl:block">
     			
-                <img src="/img/brand/social-rafiki.svg" class=" absolute inset-0 object-center object-cover h-full w-full">
+                <img src="/img/brand/socialrafiki.svg" class=" absolute inset-0 object-center object-cover h-full w-full" />
 
     		</div>
 
     	</section>
+
+        </transition>
 
         <!-- End Of The Introductory Section -->
 
@@ -90,7 +95,7 @@
                <!--  The Beginning of the card -->
               <div class="bg-white px-4 py-6 space-y-6 shadow rounded-lg">
                 
-                <img src="/img/brand/trip-rafiki.svg" class="w-full h-18 object-cover object-center">
+                <img src="/img/brand/triprafiki.svg" class="w-full h-18 object-cover object-center">
 
               <h1 class="text-center text-md font-body"> Cyprus</h1>
 
@@ -106,7 +111,7 @@
                <!--  The Beginning of the card -->
               <div class="bg-white px-4 py-6 space-y-6 shadow rounded-lg">
                 
-                <img src="/img/brand/newyork-rafiki.svg" class="w-full h-18 object-cover object-center">
+                <img src="/img/brand/newyorkrafiki.svg" class="w-full h-18 object-cover object-center">
 
               <h1 class="text-center text-md font-body"> Cyprus</h1>
 
@@ -123,7 +128,7 @@
                <!--  The Beginning of the card -->
               <div class="bg-white px-4 py-6 space-y-6 shadow rounded-lg">
                 
-                <img src="/img/brand/toronto-rafiki.svg" class="w-full h-18 object-cover object-center">
+                <img src="/img/brand/torontorafiki.svg" class="w-full h-18 object-cover object-center">
 
               <h1 class="text-center text-md font-body"> Cyprus</h1>
 
@@ -220,3 +225,16 @@
     </div>
 </template>
 
+
+
+<style >
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.25s ease-out;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+</style>
