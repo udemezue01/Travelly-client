@@ -72,9 +72,9 @@
 
     		</div>
 
-    		<div class="relative h-full w-full hidden xl:block">
+    		<div class=" h-full w-full hidden xl:block">
     			
-                <img src="/img/brand/socialrafiki.svg" class=" absolute inset-0 object-center object-cover h-full w-full" />
+                <img src="/img/brand/socialrafiki.svg" class=" object-center object-cover h-[700px] w-[800px]" />
 
     		</div>
 
