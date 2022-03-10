@@ -3,15 +3,9 @@ module.exports = {
 
   content: [
 
+    "./src/**/*.{html,js,vue}",
+    "./views/**/*.{vue}"
 
-     './src/App.vue',
-     './src/components/Navbar.vue',
-    './src/views/Landing/Landing.vue',
-    './src/views/Landing/Login.vue',
-    './src/views/Landing/Register.vue',
-    './src/views/Landing/Password-Reset.vue',
-
-    
 
   ],
   theme: {
