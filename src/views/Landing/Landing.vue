@@ -153,22 +153,22 @@
       
 
       <!--  The footer section -->
-      <footer class="grid grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center bg-gray-100 p-8 px-6 lg:px-24 ">
+      <footer class="grid grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center bg-green-300 p-8 px-6 lg:px-24 ">
 
         <div class="space-y-6 ">
 
           <img  class="h-9 w-9 object-cover object-center" src="/img/logo/logo-four.svg">
-          <a href="" class="block font-body text-gray-900 font-medium tracking-wider"> Travel and Tourism social network</a>
+          <a href="" class="block font-body text-indigo-900 font-medium tracking-wider"> Travel and Tourism social network</a>
     
 
         </div>
 
         <div class="space-y-6">
           
-            <h1 class="block font-body text-gray-900 font-bold tracking-wider">Blog</h1>
-          <a href="" class="block font-body text-gray-900 font-medium tracking-wider"> Facebook</a>
-          <a href="" class=" block font-body text-gray-900 font-medium tracking-wider"> Twitter</a>
-          <a href="" class=" block font-body text-gray-900 font-medium tracking-wider"> Instagram</a>
+            <h1 class="block font-body text-indigo-900 font-bold tracking-wider">Blog</h1>
+          <a href="" class="block font-body text-indigo-900 font-medium tracking-wider"> Facebook</a>
+          <a href="" class=" block font-body text-indigo-900 font-medium tracking-wider"> Twitter</a>
+          <a href="" class=" block font-body text-indigo-900 font-medium tracking-wider"> Instagram</a>
         </div>
 
         <div class="space-y-6">
@@ -223,6 +223,34 @@
       
     </div>
 </template>
+
+<script>
+
+export default{
+
+  data(){
+
+    return{
+
+      featured:[
+
+      {
+        
+
+      }
+
+
+      ]
+
+    }
+  },
+
+
+
+}  
+
+
+</script>
 
 
 

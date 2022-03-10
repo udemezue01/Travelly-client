@@ -1,11 +1,7 @@
-module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
-  },
 
-  mode: 'jit',
-  purge: [
+module.exports = {
+
+  content: [
 
 
      './src/App.vue',
@@ -26,7 +22,8 @@ module.exports = {
     'body':['DM Sans'],
     'display':['Pacifico']
     
-    }
+    },
+
   },
   variants: {},
   plugins: [],
